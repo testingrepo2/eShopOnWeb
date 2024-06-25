@@ -78,7 +78,7 @@ azd init -t dotnet-architecture/eShopOnWeb
 
 Run `azd up` to provision all the resources to Azure and deploy the code to those resources.
 ```
-azd up 
+azd up
 ```
 
 According to the prompt, enter an `env name`, and select `subscription` and `location`, these are the necessary parameters when you create resources. Wait a moment for the resource deployment to complete, click the web endpoint and you will see the home page.
