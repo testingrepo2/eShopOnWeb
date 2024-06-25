@@ -85,7 +85,7 @@ According to the prompt, enter an `env name`, and select `subscription` and `loc
 
 **Notes:**
 1. Considering security, we store its related data (id, password) in the **Azure Key Vault** when we create the database, and obtain it from the Key Vault when we use it. This is different from directly deploying applications locally.
-2. The resource group name created in azure portal will be **rg-{env name}**.
+2. The resource group name created in azure portal will be  **rg-{env name}**.
 
 You can also run the sample directly locally (See below).
 
